@@ -1,7 +1,14 @@
 <template>
-  <div>News (all news page)</div>
+  <news-list />
 </template>
 
 <script>
-export default {}
+import NewsList from '../../components/NewsList'
+
+export default {
+  name: 'index',
+  comments: { NewsList },
+}
 </script>
+
+<style scoped></style>

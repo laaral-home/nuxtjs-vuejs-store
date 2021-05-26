@@ -1,5 +1,5 @@
 <template>
-  <div>Detail news page</div>
+  <div class="detail-news">Detail news page</div>
 </template>
 
 <script>
@@ -9,3 +9,10 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.detail-news {
+  background-color: blue;
+  color: white;
+}
+</style>
